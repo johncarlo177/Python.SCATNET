@@ -5,7 +5,7 @@ datasets = {
     "pavia_centre": ["Pavia.mat", "Pavia_gt.mat"],
     # "houston2013": ["Houston.mat", "Houston_gt.mat"]
 }
-
+// get base
 base = os.path.join(os.path.dirname(__file__), "..", "data")
 print("Checking datasets in:", os.path.abspath(base))
 
