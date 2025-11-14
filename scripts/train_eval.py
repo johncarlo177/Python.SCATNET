@@ -17,6 +17,7 @@ per_class = np.random.uniform(0.9, 1.0, size=10).tolist()
 # Ensure outputs/ exists (only one folder)
 os.makedirs("../outputs", exist_ok=True)
 
+// get tag
 tag = f"{args.dataset}_fpca{args.fpca_k}{'_mixup' if args.use_mixup else ''}{'_cbfocal' if args.use_cb_focal else ''}"
 
 # Save metrics
